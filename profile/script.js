@@ -54,6 +54,7 @@ changePasswordBtn.addEventListener("click", () => {
 
             successMessagePass.innerText = "Your password has changed";
         } else {
+            errorMessage.innerText = "Your new pass and confirm new pass didn't matched";
         }
     } else {
         errorMessage.innerText = "Your old password is not correct";
