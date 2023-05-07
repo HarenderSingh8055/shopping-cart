@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>My Cart</title>
+	<link rel="stylesheet" href="../common.css">
+	<link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="header-wrapper">
+				<div><a class="logo" href="">MeShop.</a></div>
+				<nav>
+					<ul>
+						<li class="nav-item"><a class="nav-link" href="../shop/index.html">Home</a></li>
+						<!-- <li class="nav-item"><a class="nav-link" href="../login/index.html">Login</a></li> -->
+						<li class="nav-item"><a class="nav-link" href="../shop/index.html">Shop</a></li>
+						<li class="nav-item"><a class="nav-link" href="../cart/index.html">My Cart</a></li>
+						<li class="nav-item"><a class="nav-link" href="../profile/index.html">Profile</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div class="main-container container">
+		<h1>My Cart</h1>
+		<div class="contentWrapper">
+			<div class="cartLeft">
+				<!-- <div class="item">
+					<div class="image-wrapper">
+						<img src="tshirt.png" alt="Item" />
+					</div>
+					<div class="info">
+						<div class="row">
+							<div class="price">$100</div>
+							<div class="sized">S,M,L</div>
+						</div>
+						<div class="colors">
+							Colors:
+							<div class="row">
+								<div class="circle" style="background-color: #000"></div>
+								<div class="circle" style="background-color: #4938af"></div>
+								<div class="circle" style="background-color: #203d3e"></div>
+							</div>
+						</div>
+						<div class="row">Rating:</div>
+					</div>
+					<button id="addBtn">Add to Cart</button>
+				</div> -->
+		
+			</div>
+			<div class="cartRight">
+				<div class="cartRightcontent">
+					<p>Checkout List</p>
+					<ul class="checkoutItems">
+						<li><span>1.shirt</span><span>$100</span></li>
+						<li><span>1.shirt</span><span>$100</span></li>
+						<li><span>1.shirt</span><span>$100</span></li>
+						<li><span>1.shirt</span><span>$100</span></li>
+						<li><span>1.shirt</span><span>$100</span></li>
+						<li><span>1.shirt</span><span>$100</span></li>
+						<li><span>1.shirt</span><span>$100</span></li>
+					</ul>
+					<div class="itemsTotal"><span>Total</span><span class="totalPrice">$900</span></div>
+
+					<button class="checkoutBtn">Click To Checkout</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+	<script src="./script.js"></script>
+</body>
+
+</html>

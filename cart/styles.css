@@ -1,0 +1,122 @@
+
+.main-container{
+  padding: 20px 0 100px 0;
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0;
+}
+.contentWrapper{
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    gap: 30px;
+}
+
+.cartLeft{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.cartLeft .item {
+    border: 1px solid black;
+    width: 100%;
+    position: relative;
+  }
+  
+  .cartLeft .item .image-wrapper{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cartLeft .item img {
+    max-width: 100%;
+    height: inherit;
+    padding: 20px;
+  }
+  
+  .cartLeft .item .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cartLeft .item .info {
+    padding:2rem 1rem;
+  }
+  
+  .cartLeft .item button {
+    width: 100%;
+    border-radius: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .cartLeft .item .colors {
+    display: flex;
+    margin: 1rem 0;
+  }
+  
+  .cartLeft .item .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 0 5px;
+    border: 1px solid gray;
+  }
+
+  .cartRightcontent{
+    color: #fff;
+    background-color: #000;
+    padding:30px 20px;
+    width: 100%;
+  }
+
+  .cartRightcontent p{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .cartRightcontent ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+
+
+
+
+  .itemsTotal{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+
+  .itemsTotal span{
+    font-weight: 700;
+  }
+
+
+  .checkoutBtn{
+    width: 100%;
+    border-radius: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 30px 0;
+  }
