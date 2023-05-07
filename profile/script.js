@@ -53,6 +53,7 @@ changePasswordBtn.addEventListener("click", () => {
             localStorage.setItem("currUser", JSON.stringify(currUser));
 
             successMessagePass.innerText = "Your password has changed";
+            errorMessage.innerText = "";
         } else {
             errorMessage.innerText = "Your new pass and confirm new pass didn't matched";
         }
